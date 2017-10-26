@@ -15,6 +15,7 @@ Parts:
 
 ![](arduino_relay.jpg)
 
+
 ##Setup
 
 - 1) Simply find the line of code, and change it to the appropriate IP address for your network (DHCP not supported), currently 10.69.69.200.
