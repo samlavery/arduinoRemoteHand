@@ -1,9 +1,9 @@
 # arduinoRemoteHand
 
-##Problem
+## Problem
 GPUs are fickle beasts, especially under linux.  Trying to optimize their perfmance often leads to a hung server, it will respond to pings, but will never ever be able restart itself.  It's a serious hardware fault and the server can't solve it by itself.  
 
-##Solution
+## Solution
 Reset your hung servers with this ugly thing!!
 
 Parts:
@@ -16,7 +16,7 @@ Parts:
 ![](arduino_relay.jpg)
 
 
-##Setup
+## Setup
 
 - 1) Simply find the line of code, and change it to the appropriate IP address for your network (DHCP not supported), currently 10.69.69.200.
 
@@ -28,7 +28,7 @@ Parts:
 
 - 5) Connect it to your network via the ethernet shield.
 
-##Usage 
+## Usage 
 This was built with automation in mind, so it supports a minimal version of HTTP and a simple REST API. This code is built for an 8 port relay, but it's obvious how to extend or shrink to suit your needs. 
 
 To turn on the server connected to relay 5 by closing the circuit for 1 second, try:
